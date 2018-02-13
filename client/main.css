@@ -1,0 +1,54 @@
+/* CSS declarations go here */
+
+body{
+        margin:0;
+
+}
+.wrapper{
+        width:80%;
+        margin: 0 auto;
+
+}
+
+input {
+        width:80%;
+        grid-column:start;
+        padding: 10px;
+        display: inline-flex;
+        border-radius: 5px;
+        outline:none;
+}
+
+button{
+        padding: 10px;
+        display: inline-flex;
+        border-radius: 5px;
+        grid-column:end;
+        background:black;
+        color:white;
+        opacity: 0.7;
+        filter: alpha(opacity=50);
+}
+
+.blue {
+	cursor: pointer;
+}
+
+.red {
+	cursor: pointer;
+}
+
+.blue:Hover {
+	background-color: blue;
+	color: white;
+}
+
+.curse:Hover {
+	cursor: pointer;
+}
+
+.red:Hover {
+	background-color: red;
+	color: white;
+}
+
